@@ -6,8 +6,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      {AllCards.map((card, i) => (
-        <Card image={card.image} sound={card.sound} key={card.sound + i}></Card>
+      {Object.keys(AllCards).map((cardKey, i) => (
+        <Card
+          image={AllCards[cardKey].image}
+          sound={AllCards[cardKey].sound}
+          key={cardKey + i}
+        ></Card>
       ))}
     </div>
   );
