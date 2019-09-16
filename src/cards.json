@@ -1,0 +1,6 @@
+[
+  { "sound": "O", "image": "indianer.png" },
+  { "sound": "P", "image": "feder.png" },
+  { "sound": "A", "image": "ah.png" },
+  { "sound": "S", "image": "snake.png" }
+]
