@@ -1,6 +1,22 @@
 {
+  "A": { "sound": "A", "image": "ah.png" },
+  "B": { "sound": "B", "image": "fisch.png" },
+  "D": { "sound": "D", "image": "zeigen.png" },
+  "E": { "sound": "E", "image": "elefant.png" },
+  "F": { "sound": "F", "image": "ballon.png" },
+  "G": { "sound": "G", "image": "gans.png" },
+  "H": { "sound": "H", "image": "hauch.png" },
+  "I": { "sound": "I", "image": "muell.png" },
+  "J": { "sound": "J", "image": "foen.png" },
+  "K": { "sound": "K", "image": "holzfaeller.png" },
+  "L": { "sound": "L", "image": "musik.png" },
+  "M": { "sound": "M", "image": "lecker.png" },
+  "N": { "sound": "N", "image": "nase.png" },
   "O": { "sound": "O", "image": "indianer.png" },
   "P": { "sound": "P", "image": "feder.png" },
-  "A": { "sound": "A", "image": "ah.png" },
-  "S": { "sound": "S", "image": "snake.png" }
+  "R": { "sound": "R", "image": "katze.png" },
+  "S": { "sound": "S", "image": "schlange.png" },
+  "T": { "sound": "T", "image": "tropfen.png" },
+  "U": { "sound": "U", "image": "geist.png" },
+  "W": { "sound": "W", "image": "staubsauger.png" }
 }
