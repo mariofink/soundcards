@@ -1,17 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import Word from "components/word/Word";
-import AllCards from "cards.json";
 import "./App.css";
 
 function App() {
+  const [input, setInput] = useState("OMA");
   return (
     <div className="App">
-      <Word>OPA</Word>
-      <Word>
-        {Object.keys(AllCards)
-          .join("")
-          .toUpperCase()}
-      </Word>
+      <input class="sound-input" type="text" value={input} onChange={(e) => setInput(e.target.value.toUpperCase())}></input>
+      <Word>{input}</Word>
     </div>
   );
 }
