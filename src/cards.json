@@ -1,6 +1,7 @@
 {
   "A": { "sound": "A", "image": "ah.png" },
   "B": { "sound": "B", "image": "fisch.png" },
+  "SCH": { "sound": "SCH", "image": "fisch.png" },
   "D": { "sound": "D", "image": "zeigen.png" },
   "E": { "sound": "E", "image": "elefant.png" },
   "F": { "sound": "F", "image": "ballon.png" },

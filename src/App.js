@@ -3,7 +3,7 @@ import Word from "components/word/Word";
 import "./App.css";
 
 function App() {
-  const [input, setInput] = useState("OMA");
+  const [input, setInput] = useState("FISCH");
   return (
     <div className="App">
       <input
