@@ -1,4 +1,7 @@
 [
+  { "word": "Auf", "sounds": ["AU", "F"] },
+  { "word": "Eis", "sounds": ["EI", "S"] },
   { "word": "Oma", "sounds": ["O", "M", "A"] },
+  { "word": "Lachen", "sounds": ["L", "A", "CH", "N"] },
   { "word": "Fisch", "sounds": ["F", "I", "SCH"] }
 ]

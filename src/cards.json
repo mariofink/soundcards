@@ -19,5 +19,8 @@
   "T": { "sound": "T", "image": "tropfen.png" },
   "U": { "sound": "U", "image": "geist.png" },
   "W": { "sound": "W", "image": "staubsauger.png" },
+  "AU": { "sound": "AU", "image": "au.png" },
+  "EI": { "sound": "EI", "image": "ei.png" },
+  "CH": { "sound": "CH", "image": "drache.png" },
   "SCH": { "sound": "SCH", "image": "lokomotive.png" }
 }
