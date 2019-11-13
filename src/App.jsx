@@ -14,9 +14,18 @@ function App() {
     }
   }
 
+  function previousWord() {
+    if (index === 0) {
+      setIndex(allWords.length - 1);
+    } else {
+      setIndex(index - 1);
+    }
+  }
+
   return (
     <div className="App">
       <Word sounds={allWords[index].sounds} />
+      <button onClick={previousWord}>Vorheriges Wort</button>
       <button onClick={nextWord}>Nächstes Wort</button>
     </div>
   );
