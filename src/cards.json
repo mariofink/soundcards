@@ -18,5 +18,6 @@
   "S": { "sound": "S", "image": "schlange.png" },
   "T": { "sound": "T", "image": "tropfen.png" },
   "U": { "sound": "U", "image": "geist.png" },
-  "W": { "sound": "W", "image": "staubsauger.png" }
+  "W": { "sound": "W", "image": "staubsauger.png" },
+  "SCH": { "sound": "SCH", "image": "lokomotive.png" }
 }

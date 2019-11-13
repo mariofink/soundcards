@@ -6,7 +6,7 @@ import styles from "./Word.module.css";
 function renderCard(cardKey, i) {
   const card = AllCards[cardKey];
   if (typeof card === "undefined") {
-    console.warn("no card found for", cardKey)
+    console.warn("no card found for", cardKey);
     return;
   }
   return (
@@ -15,16 +15,14 @@ function renderCard(cardKey, i) {
       sound={AllCards[cardKey].sound}
       key={cardKey + i}
     ></Card>
-  )
+  );
 }
 
 export default props => {
-  const word = props.children.split("");
+  const word = props.sounds;
   return (
     <div className={styles.word}>
-      {word.map((cardKey, i) => (
-        renderCard(cardKey, i)
-      ))}
+      {word.map((cardKey, i) => renderCard(cardKey, i))}
     </div>
   );
 };

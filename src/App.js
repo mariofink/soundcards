@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import Word from "components/word/Word";
+import allWords from "./words.json";
 import "./App.css";
 
 function App() {
-  const [input, setInput] = useState("OMA");
+  const [index, setIndex] = useState(0);
+
+  function nextWord() {
+    if (index === allWords.length - 1) {
+      setIndex(0);
+    } else {
+      setIndex(index + 1);
+    }
+  }
+
   return (
     <div className="App">
-      <input
-        className="sound-input"
-        type="text"
-        value={input}
-        onChange={e => setInput(e.target.value.toUpperCase())}
-      ></input>
-      <Word>{input}</Word>
+      <Word sounds={allWords[index].sounds} />
+      <button onClick={nextWord}>Nächstes Wort</button>
     </div>
   );
 }
